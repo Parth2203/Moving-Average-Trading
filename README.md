@@ -1,5 +1,9 @@
 ## Moving-Average-Trading
-Trading bot using Alpaca-trade-api. Bot uses the Simple Moving Average Crossover strategy. 
+Trading bot using Alpaca-trade-api. 
+Implemented Simple Moving Average Crossover strategy. 
+A moving average, also called as rolling average or running average is a used to analyze the time-series data by calculating a series of averages of the different subsets of full dataset. Simple moving average is calculated by adding the the closing price of last n number of days and then diving by the number of days(time-period).
+Also implemented email notifications, all trading activities are alerted to the user through email. And it has error logging mechanism, which helps if the bot encounters any unforeseen errors.
+Bot is functionally built on python-3.10.4
 
 # alpaca-trade-api-python
 `alpaca-trade-api-python` is a python library for the [Alpaca Commission Free Trading API](https://alpaca.markets).
