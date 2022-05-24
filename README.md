@@ -1,4 +1,4 @@
-## Moving-Average-Trading
+# Moving-Average-Trading
 Trading bot using Alpaca-trade-api. 
 Implemented Simple Moving Average Crossover strategy. 
 A moving average, also called as rolling average or running average is a used to analyze the time-series data by calculating a series of averages of the different subsets of full dataset. Simple moving average is calculated by adding the the closing price of last n number of days and then diving by the number of days(time-period).
